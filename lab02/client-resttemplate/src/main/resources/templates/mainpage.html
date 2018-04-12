@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>client app</title>
+</head>
+<body>
+  <h1>this is your main page</h1>
+  <table>
+    <tr>
+      <td><b>That's your entries</b></td>
+    </tr>
+    <tr th:each="entry : ${user.entries}">
+      <td th:text="${entry.value}">value</td>
+    </tr>
+  </table>
+  <h3>your userinfo from [UserInfo Application]</h3>
+  <table>
+    <tr>
+        <td><b>name</b></td>
+        <td th:text="${userInfo.name}">username</td>
+    </tr>
+    <tr>
+        <td><b>email</b></td>
+        <td th:text="${userInfo.email}">email</td>
+    </tr>
+  </table>
+</body>
+</html>
