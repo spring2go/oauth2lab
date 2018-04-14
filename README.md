@@ -24,6 +24,11 @@ oauth2lab
 7. [lab07](lab07)~OAuth2安全风险实验
 
 
+# 注意
+1. 所有代码仅供学习参考，不是生产级
+2. 代码采用[Mit license](LICENSE)
+
+
 
 
 
