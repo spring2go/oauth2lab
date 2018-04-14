@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>GitHub integration</title>
+</head>
+<body>
+	<h3>Hello, <span th:text="${name}">User</span>!</h3>
+	<br/>
+	<div th:each="repo:${repositories}">
+		<b th:text="${repo.name}">[name]</b>
+		<div th:text="${repo.description}">[description]</div>
+		<hr/>
+	</div>
+
+</body>
+</html>
