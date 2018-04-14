@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:th="http://www.thymeleaf.org">
+<body>
+<div style="border: 3px solid black; width: 30%; padding: 10px">
+    <h1>Hello</h1>
+    <span th:text="${username}"></span>
+    <div>
+        <a th:href="@{/resource}">Get resource</a>
+    </div>
+</div>
+</body>
+</html>

@@ -11,6 +11,8 @@ oauth2lab
 5. [Postman](https://www.getpostman.com/)
 6. [Eclipse STS](https://spring.io/tools)
 7. [Android Studio](https://developer.android.com/studio/index.html)
+8. [Firefox Browser](http://rj.baidu.com/soft/detail/10365.html)
+9. [NoRedirect Add on for Firefox](https://addons.mozilla.org/en-US/firefox/addon/noredirect/)
 
 # 实验目录
 1. [lab01](lab01)~授权服务器实验
