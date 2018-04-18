@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.baeldung</groupId>
+	<groupId>io.spring2go</groupId>
 	<artifactId>spring-security-oauth</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
@@ -77,9 +77,9 @@
 
 
 	<modules>
-		<module>spring-security-oauth-resource</module>
-		<module>spring-security-oauth-server</module>
-		<module>angularjs/spring-security-oauth-ui-implicit</module> 
+		<module>oauth-resource</module>
+		<module>oauth-server</module>
+		<module>angularjs/oauth-ui-implicit</module> 
 	</modules>
 
 </project>
