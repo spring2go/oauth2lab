@@ -7,7 +7,10 @@
 
 ### 2. 在Android Studio中启动AuthCodeApp
 
-### 3. 校验
+### 3. 更新授权服务器ip地址
+AuthCodeApp\app\src\main\java\spring2go\io\authcodeapp\client\ClientAPI中的BASE_URL地址为mobile_authserver的ip地址
+
+### 4. 校验
 
 1. 校验h2内存数据库生成的访问令牌 http://localhost:8080/h2-console
 2. Android Studio中的Device File Explorer查看
