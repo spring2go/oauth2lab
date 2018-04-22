@@ -1,4 +1,4 @@
-基于Spring Security OAuth2+内存H2数据库的最简授权服务器
+Android对接OAuth2授权服务器（基于Spring Security OAuth2+内存H2数据库）
 ======
 
 # 操作方式
