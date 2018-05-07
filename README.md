@@ -23,10 +23,13 @@ oauth2lab
 6. [lab06](lab06)~Github联合登录
 7. [lab07](lab07)~OAuth2安全风险实验
 
+# 课程ppt
+1. [深度剖析OAuth2和微服务安全架构](ppt/深度剖析OAuth2和微服务安全架构.pdf)
+2. [OAuth2.0最简向导](ppt/OAuth2.0最简向导.pdf)
 
 # 注意
 1. 所有代码仅供学习参考，不是生产级
-2. 代码采用[Mit license](LICENSE)
+2. 代码和ppt采用[Mit license](LICENSE)
 
 
 
