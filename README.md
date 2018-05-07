@@ -1,7 +1,11 @@
 oauth2lab
 ======
 
-《微服务安全架构和实践》微课程的实验代码。
+《微服务安全架构和实践》微课程的ppt和实验代码。
+
+# 课程ppt
+1. [深度剖析OAuth2和微服务安全架构](ppt/深度剖析OAuth2和微服务安全架构.pdf)
+2. [OAuth2.0最简向导](ppt/OAuth2.0最简向导.pdf)
 
 # 实验软件需求
 1. [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
@@ -22,10 +26,6 @@ oauth2lab
 5. [lab05](lab05)~Angularjs单页应用实验
 6. [lab06](lab06)~Github联合登录
 7. [lab07](lab07)~OAuth2安全风险实验
-
-# 课程ppt
-1. [深度剖析OAuth2和微服务安全架构](ppt/深度剖析OAuth2和微服务安全架构.pdf)
-2. [OAuth2.0最简向导](ppt/OAuth2.0最简向导.pdf)
 
 # 注意
 1. 所有代码仅供学习参考，不是生产级
