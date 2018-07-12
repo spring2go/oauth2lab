@@ -13,9 +13,9 @@ oauth2lab
 3. [MySQL](https://dev.mysql.com/downloads/)
 4. [Redis for windows](https://github.com/MicrosoftArchive/redis/releases)
 5. [Postman](https://www.getpostman.com/)
-6. [Eclipse STS](https://spring.io/tools)
-7. [Android Studio](https://developer.android.com/studio/index.html)
-8. [Firefox Browser](http://rj.baidu.com/soft/detail/10365.html)
+6. [Eclipse STS下载1网盘](https://pan.baidu.com/s/1xqy4G_r9N24WODBBuGlIog) [下载2国外](https://spring.io/tools)
+7. [Android Studio下载1(国内可访问)](https://dl.google.com/dl/android/studio/install/3.1.2.0/android-studio-ide-173.4720617-windows.exe) [网盘下载2](https://pan.baidu.com/s/1xO0jppKszfJAA3GFJ8bxcw) [下载3(国外访问)](https://developer.android.com/studio/index.html)
+8. [Firefox Browser 47.0.2](http://ftp.mozilla.org/pub/firefox/releases/47.0.2/win64/zh-CN/)
 9. [NoRedirect Add on for Firefox](https://addons.mozilla.org/en-US/firefox/addon/noredirect/)
 
 # 实验目录
