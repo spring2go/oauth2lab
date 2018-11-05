@@ -9,6 +9,8 @@
 
 http://localhost:8080/oauth/authorize?client_id=clientapp&redirect_uri=http://localhost:9001/callback&response_type=token&scope=read_userinfo&state=abc
 
+根据提示输入用户名密码(在[application.properties](src/main/resources/application.properties)文件里头)进行认证，并Approve授权。
+
 响应案例：
 
 http://localhost:9001/callback#access_token=0406040a-779e-4b5e-adf1-bf2f02031e83&token_type=bearer&state=abc&expires_in=119
