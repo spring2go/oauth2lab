@@ -17,7 +17,7 @@ http://localhost:9001/callback?code=8uYpdo
 
 ### 2. 获取访问令牌
 
-curl -X POST --user clientapp:123456 http://localhost:8080/oauth/token -H
+curl -X POST --user clientapp:112233 http://localhost:8080/oauth/token -H
 "content-type: application/x-www-form-urlencoded" -d
 "code=8uYpdo&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalh
 ost%3A9001%2Fcallback&scope=read_userinfo"
