@@ -45,7 +45,8 @@ public class MainPage {
         clientUser.setAccessToken(token.getAccessToken());
 
         Calendar tokenValidity = Calendar.getInstance();
-        tokenValidity.setTime(new Date(Long.parseLong(token.getExpiresIn())));
+        long validIn = System.currentTimeMillis() + Long.parseLong(token.getExpiresIn());
+        tokenValidity.setTime(new Date(validIn));
         clientUser.setAccessTokenValidity(tokenValidity);
 
         users.save(clientUser);
