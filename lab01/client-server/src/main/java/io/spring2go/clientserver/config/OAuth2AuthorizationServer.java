@@ -16,7 +16,7 @@ public class OAuth2AuthorizationServer extends
             throws Exception {
         clients.inMemory()
             .withClient("clientdevops")
-            // 密码模式
+            // 客户端模式
             .secret("789")
             .authorizedGrantTypes("client_credentials")
             .scopes("devops");
