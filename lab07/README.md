@@ -5,7 +5,7 @@
 
 ### 1. 安装Firefox浏览器和NoRedirect Add on for Firefox
 * [Firefox Browser](http://ftp.mozilla.org/pub/firefox/releases/47.0.2/win64/zh-CN/)
-* [NoRedirect Add on for Firefox](https://addons.mozilla.org/en-US/firefox/addon/noredirect/)
+* [NoRedirect Add on for Firefox](https://addons.thunderbird.net/en-us/firefox/addon/noredirect/)
 
 将`http://localhost:8080`加入NoRedirect设置的规则列表，选中`来源`，并将该规则置顶。
 
