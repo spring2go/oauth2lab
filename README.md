@@ -26,6 +26,7 @@ oauth2lab
 5. [lab05](lab05)~Angularjs单页应用实验
 6. [lab06](lab06)~Github联合登录
 7. [lab07](lab07)~OAuth2安全风险实验
+8. test
 
 # 注意
 1. 所有代码仅供学习参考，不是生产级
