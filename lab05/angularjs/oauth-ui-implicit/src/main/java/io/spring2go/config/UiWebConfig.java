@@ -33,7 +33,7 @@ public class UiWebConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void addResourceHandlers(final ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
+        registry.addResourceHandler("/js/**").addResourceLocations("classpath:/js/");
     }
 
 }
