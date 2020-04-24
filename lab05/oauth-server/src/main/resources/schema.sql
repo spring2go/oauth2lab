@@ -116,7 +116,7 @@ create table if not exists oauth_approvals (
 	scope VARCHAR(255),
 	status VARCHAR(10),
 	expiresAt TIMESTAMP,
-	lastModifiedAt TIMESTAMP
+	lastModifiedAt TIMESTAMP not null default current_timestamp
 );
 
 create table if not exists ClientDetails (
