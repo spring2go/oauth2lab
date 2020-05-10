@@ -14,19 +14,21 @@ import io.spring2go.clientresttemplate.user.UserRepository;
 @Service
 public class ClientUserDetailsService implements UserDetailsService {
 
-    @Autowired
-    private UserRepository users;
+	@Autowired
+	private UserRepository users;
 
-    @Override
-    public UserDetails loadUserByUsername(String username)
-            throws UsernameNotFoundException {
-        Optional<ClientUser> optionalUser = users.findByUsername(username);
+	@Autowired
+	private OrchidPasswordEncoder passwordEncoder;
 
-        if (!optionalUser.isPresent()) {
-            throw new UsernameNotFoundException("invalid username or password");
-        }
+	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		Optional<ClientUser> optionalUser = users.findByUsername(username);
 
-        return new ClientUserDetails(optionalUser.get());
-    }
+		if (!optionalUser.isPresent()) {
+			throw new UsernameNotFoundException("invalid username or password");
+		}
+		optionalUser.get().setPassword(passwordEncoder.encode(optionalUser.get().getPassword()));
+		return new ClientUserDetails(optionalUser.get());
+	}
 
 }

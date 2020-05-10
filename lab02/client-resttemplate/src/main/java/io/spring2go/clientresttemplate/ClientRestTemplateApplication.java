@@ -10,13 +10,13 @@ import org.springframework.boot.web.servlet.ServletContextInitializer;
 @SpringBootApplication
 public class ClientRestTemplateApplication implements ServletContextInitializer {
 
-    public static void main(String[] args) {
-        SpringApplication.run(ClientRestTemplateApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(ClientRestTemplateApplication.class, args);
+	}
 
-    @Override
-    public void onStartup(ServletContext context) throws ServletException {
-        context.getSessionCookieConfig().setName("client-session");
-    }
+	@Override
+	public void onStartup(ServletContext context) throws ServletException {
+		context.getSessionCookieConfig().setName("client-session");
+	}
 
 }
