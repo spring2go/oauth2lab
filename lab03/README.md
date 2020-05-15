@@ -9,7 +9,7 @@
 
 ### 3. 获取JWT令牌
 
-curl -X POST --user clientapp:112233 http://localhost:8080/oauth/token -H "accept: application/json" -H "content-type: application/x-www-formurlencoded" -d "grant_type=password&username=bobo&password=xyz&scope=read_userinfo"
+curl -X POST --user clientapp:112233 http://localhost:8080/oauth/token -H "accept: application/json" -H "content-type: application/x-www-form-urlencoded" -d "grant_type=password&username=bobo&password=xyz&scope=read_userinfo"
 
 响应案例：
 
