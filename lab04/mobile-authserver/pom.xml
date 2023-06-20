@@ -47,7 +47,7 @@
 		<dependency>
 			<groupId>org.springframework.security.oauth</groupId>
 			<artifactId>spring-security-oauth2</artifactId>
-			<version>2.2.0.RELEASE</version><!--$NO-MVN-MAN-VER$ -->
+			<version>2.2.4.RELEASE</version><!--$NO-MVN-MAN-VER$ -->
 		</dependency>
 
 		<dependency>
